@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 132
+  controlID: 140
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 61
+  controlID: 60
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 62
+  controlID: 61
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -376,20 +376,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models
+    - Assets/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Prefabs/Props
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models
+  - Assets/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Prefabs/Props
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\3d-transformer\yandex-game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 78}
-    m_SelectedIDs: ea480000
-    m_LastClickedID: 18666
-    m_ExpandedIDs: 00000000e2390000e4390000e6390000e8390000ea390000ec390000fe390000023a0000e8480000ea480000f4480000fa480000
+    scrollPos: {x: 0, y: 106}
+    m_SelectedIDs: 70390000
+    m_LastClickedID: 14704
+    m_ExpandedIDs: 00000000423900004439000046390000483900004a3900004c3900005c39000062390000683900006a390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2390000e4390000e6390000e8390000ea390000ec390000
+    m_ExpandedIDs: 00000000423900004439000046390000483900004a3900004c390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -540,23 +540,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 20eeffff9afaffff64fbfffffa360000
+      m_SelectedIDs: 2aa1ffff
+      m_LastClickedID: -24278
+      m_ExpandedIDs: 30a1ffff3aa1ffffccb4ffff86f3ffff64fbffff70370000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Ground
-        m_OriginalName: Ground
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1394
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 4
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -602,9 +602,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 15.623405, y: 16.171185, z: -15.88685}
+    m_Target: {x: 9.809656, y: 13.813608, z: 15.110785}
     speed: 2
-    m_Value: {x: 15.623405, y: 16.171185, z: -15.88685}
+    m_Value: {x: 9.809656, y: 13.813608, z: 15.110785}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -650,13 +650,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.03008012, y: 0.121140815, z: -0.0036757805, w: 0.99215144}
+    m_Target: {x: 0.17326675, y: 0.041347645, z: -0.0072430978, w: 0.9839236}
     speed: 2
-    m_Value: {x: 0.030075205, y: 0.12263148, z: -0.0037209748, w: 0.9919895}
+    m_Value: {x: 0.17328703, y: 0.039873924, z: -0.006983577, w: 0.98403907}
   m_Size:
-    m_Target: 17.363338
+    m_Target: 19.066092
     speed: 2
-    m_Value: 17.363338
+    m_Value: 19.066092
   m_Ortho:
     m_Target: 0
     speed: 2
