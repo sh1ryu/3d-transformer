@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 111
+  controlID: 18
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 317
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -217,10 +217,10 @@ MonoBehaviour:
     y: 0
     width: 1603
     height: 947
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 17
+  controlID: 122
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,10 +242,10 @@ MonoBehaviour:
     y: 0
     width: 1603
     height: 672
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 18
+  controlID: 123
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -376,20 +376,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Prefabs/Props
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Prefabs/Props
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\3d-transformer\yandex-game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 38}
-    m_SelectedIDs: 483d0000
-    m_LastClickedID: 15688
-    m_ExpandedIDs: 00000000083a00000a3a00000c3a00000e3a0000103a0000123a00001a3a0000203a0000223a00006a3a00007a3c0000463d0000ffffff7f
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: a83b0000
+    m_LastClickedID: 15272
+    m_ExpandedIDs: 00000000a83b0000aa3b0000ac3b0000ae3b0000b03b0000b23b0000b43b0000b63b0000c63b0000cc3b0000ce3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000083a00000a3a00000c3a00000e3a0000103a0000123a0000
+    m_ExpandedIDs: 00000000a83b0000aa3b0000ac3b0000ae3b0000b03b0000b23b0000b43b0000b63b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,7 +542,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 82abffffe2b2ffff64fbffff16370000083800001838000056380000
+      m_ExpandedIDs: 64fbffffb637000028380000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -602,9 +602,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 44.657402, y: 12.792742, z: -9.865433}
+    m_Target: {x: 35.149788, y: 9.662991, z: -23.710464}
     speed: 2
-    m_Value: {x: 44.657402, y: 12.792742, z: -9.865433}
+    m_Value: {x: 35.149788, y: 9.662991, z: -23.710464}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -650,9 +650,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.01577017, y: 0.21834084, z: 0.0036615802, w: 0.97558874}
+    m_Target: {x: 0.040768262, y: 0.035640378, z: -0.0013310779, w: 0.9983727}
     speed: 2
-    m_Value: {x: -0.015766962, y: 0.21983607, z: 0.0036857692, w: 0.9754025}
+    m_Value: {x: 0.040772706, y: 0.037143804, z: -0.0013924502, w: 0.99847686}
   m_Size:
     m_Target: 22.598825
     speed: 2
