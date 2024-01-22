@@ -154,7 +154,7 @@ public class PlatformerCharacterController : MonoBehaviour
             {
                 playerVelocity.x = Mathf.Clamp(playerVelocity.x - Speed * Time.fixedDeltaTime, -Speed, -Speed * 0.3f);
             }
-            _animator?.SetBool("isRunning", true);
+
         }
         else if (D)//Move right
         {
@@ -168,11 +168,11 @@ public class PlatformerCharacterController : MonoBehaviour
             {
                 playerVelocity.x = Mathf.Clamp(playerVelocity.x + Speed * Time.fixedDeltaTime, Speed * 0.3f, Speed);
             }
-            _animator?.SetBool("isRunning", true);
+
         }//Disable Running animation
         else
         {
-            _animator?.SetBool("isRunning", false);
+            //_animator?.SetBool("isRunning", false);
         }
         //Rotate character
         transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, playerOrientation, 360 * 2 * Time.fixedDeltaTime);
@@ -195,8 +195,8 @@ public class PlatformerCharacterController : MonoBehaviour
                 var reboundVector = new Vector2(Mathf.Cos(Mathf.Deg2Rad * ReboundAngle), Mathf.Sin(Mathf.Deg2Rad * ReboundAngle));
                 playerVelocity.x = ReboundSpeed * reboundVector.x * reboundMul;
                 playerVelocity.y = Mathf.Sqrt(reboundVector.y * ReboundSpeed * -2 * -Gravity);
-                _animator?.SetBool("isRunning", false);
-                _animator?.SetTrigger("Jump");
+                //_animator?.SetBool("isRunning", false);
+                //_animator?.SetTrigger("Jump");
                 reboundPerformed = true;
                 lastReboundTime = Time.time;
                 playerOrientation = Vector3.up * (reboundSide > 0 ? 270 : 90);
@@ -204,8 +204,8 @@ public class PlatformerCharacterController : MonoBehaviour
             else if (grounded || (DoubleJumpEnabled && !doubleJumpPerformed))
             {
                 playerVelocity.y = Mathf.Sqrt(JumpHeight * -3.0f * -Gravity);
-                _animator?.SetBool("isRunning", false);
-                _animator?.SetTrigger("Jump");
+                //_animator?.SetBool("isRunning", false);
+                //_animator?.SetTrigger("Jump");
             }            
             //Reset Doublejump (Fix inifinity jumps)
             if (!grounded)
@@ -231,7 +231,7 @@ public class PlatformerCharacterController : MonoBehaviour
         {
             playerVelocity.x -= DashSpeed;
             playerVelocity.y = 0;
-            _animator?.SetBool("isRunning", false);
+            //_animator?.SetBool("isRunning", false);
             _animator?.SetTrigger("Dash");
             dashLeftPrepared = false;
             dashLeftPerformed = true;
@@ -242,7 +242,7 @@ public class PlatformerCharacterController : MonoBehaviour
         {
             playerVelocity.x += DashSpeed;
             playerVelocity.y = 0;
-            _animator?.SetBool("isRunning", false);
+            //_animator?.SetBool("isRunning", false);
             _animator?.SetTrigger("Dash");
             dashRightPrepared = false;
             dashRightPerformed = true;
